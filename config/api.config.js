@@ -26,7 +26,7 @@ module.exports = {
   scope: 'user.read files.read.all offline_access',
 
   // Cache-Control header, check Vercel documentation for more details. The default settings imply:
-  // - max-age=0: no cache for your browser
+  // - max-age=0: no cache for your browser5
   // - s-maxage=0: cache is fresh for 60 seconds on the edge, after which it becomes stale
   // - stale-while-revalidate: allow serving stale content while revalidating on the edge
   // https://vercel.com/docs/concepts/edge-network/caching
